@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * @author liuhongfei
- * @desc 用户接口
  * @since v1.0.0
  **/
 public interface UserService {
