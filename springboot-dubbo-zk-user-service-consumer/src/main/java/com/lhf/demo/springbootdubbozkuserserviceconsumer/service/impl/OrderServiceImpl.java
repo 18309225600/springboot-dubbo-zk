@@ -1,7 +1,7 @@
 package com.lhf.demo.springbootdubbozkuserserviceconsumer.service.impl;
 
-import com.lhf.demo.springbootdubbozkcommon.service.order.OrderService;
 import com.lhf.demo.springbootdubbozkcommon.entity.user.UserAddress;
+import com.lhf.demo.springbootdubbozkcommon.service.order.OrderService;
 import com.lhf.demo.springbootdubbozkcommon.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
