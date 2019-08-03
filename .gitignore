@@ -24,3 +24,4 @@ hs_err_pid*
 /springboot-dubbo-zk.iml
 /mvnw.cmd
 /mvnw
+/.mvn/
