@@ -2,7 +2,8 @@ package com.lhf.demo.springbootdubbozkusersrviceprovider.service.impl;
 
 import com.lhf.demo.springbootdubbozkcommon.entity.user.UserAddress;
 import com.lhf.demo.springbootdubbozkcommon.service.user.UserService;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,7 +13,9 @@ import java.util.List;
  * @desc 用户服务实现
  * @since v1.0.0
  **/
-@Service
+
+@Service //暴露服务
+@Component
 public class UserServiceImpl implements UserService {
 
     @Override
